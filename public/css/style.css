@@ -1,0 +1,151 @@
+h1 {
+    text-align: center;
+    border: solid 1px black;
+    font-size: 160%;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.box {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.under {
+    border-bottom: solid 1px black;
+}
+
+.btn {
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.req {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+img {
+    float: left;
+}
+
+ul {
+   display: flex; 
+}
+li {
+    display:inline-block;
+    margin:5px 2px;
+}
+
+.header {
+    display:inline-block;
+    margin:5px 10px;
+    margin-top: 25px;
+    font-weight:bold;
+}
+
+.header a {
+    color: black;
+    font-size: 120%;
+}
+
+.header.transform a {
+    color: white;
+    font-size: 120%;
+}
+
+.bg4 {
+    background-color: #45A2B8;
+}
+
+.bg5 {
+    background-color: #1B499F;
+}
+
+.bg6 {
+    background-color: grey;
+}
+
+.point3 {
+    font-size: 42px;
+    font-family: "NotoSerif-Bold, Noto Serif";
+    font-weight: 700;
+}
+
+.footer {
+    display:inline-block;
+    margin:5px 10px;
+    margin-top: 25px;
+    font-weight:bold;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    font-size: 110%;
+}
+
+.line {
+    border-bottom: solid 1px white;
+    padding: 5px;
+}
+
+.full {
+    width: 100%;
+}
+
+.even {
+    background-color: #ccffff;
+}
+
+.odd {
+    background-color: #ccccff;
+}
+
+.login {
+    padding: 5px;
+    background-color: #9fc5e8;
+}
+
+#popup {
+    width: 250px;
+    margin: auto;
+    margin-top: 40vh;
+    padding: 30px 20px;
+    display: none;
+    text-align: center;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 4px #888;
+    z-index: 9999;
+}
+
+.dec {
+    max-width: 50%;
+}
+
+.site-header {
+    position:sticky;
+    top:0px;
+    z-index: 9999;
+    background-color: white;
+}
+
+.site-header.transform {
+    background-color: rgba(128,128,128,0.6);
+}
+
+.no-gutters {
+  margin:0;
+  padding:0;
+}
+ 
+.no-gutters　> .col,
+.no-gutters　> [class*="col-"] {
+  margin:0;
+  padding:0;
+}
